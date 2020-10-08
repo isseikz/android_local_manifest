@@ -9,11 +9,11 @@ How to build:
 
 ```
 repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
-curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi.xml -O -L https://raw.githubusercontent.com/lineage-rpi/android_local_manifest/lineage-16.0-twrp/manifest_brcm_rpi.xml
+curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi.xml -O -L https://raw.githubusercontent.com/isseikz/android_local_manifest/lineage-16.0-twrp/manifest_brcm_rpi.xml
 repo sync
 ```
 
-3. Apply [patches](https://github.com/lineage-rpi/android_local_manifest/tree/lineage-16.0-twrp/patches):
+3. Apply [patches](https://github.com/isseikz/android_local_manifest/tree/lineage-16.0-twrp/patches):
 
 ```
 cd path/to/project
